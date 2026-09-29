@@ -39,7 +39,7 @@ export function Hero() {
 
   return (
     <section className="min-h-screen bg-cream pt-24">
-      <div className="mx-auto grid min-h-[calc(100vh-6rem)] max-w-7xl items-center gap-10 px-5 py-10 sm:px-8 lg:grid-cols-[0.92fr_1.08fr]">
+      <div className="mx-auto grid min-h-[calc(100vh-6rem)] max-w-[1536px] items-center gap-10 px-5 py-10 sm:px-8 lg:grid-cols-[0.92fr_1.08fr]">
         <div className="max-w-xl">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-muted">
             <ShieldCheck size={16} className="text-accent" />

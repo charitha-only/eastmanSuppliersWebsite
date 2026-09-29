@@ -16,7 +16,7 @@ export function ProductGrid() {
 
   return (
     <section id="products" className="bg-cream py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+      <div className="mx-auto max-w-[1536px] px-5 sm:px-10 xl:px-16">
         <div className="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-accent">Parts catalog</p>

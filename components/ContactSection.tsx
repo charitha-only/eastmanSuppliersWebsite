@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail } from 'lucide-react';
 export function ContactSection() {
   return (
     <section id="contact" className="border-t border-line bg-white py-20 sm:py-28">
-      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+      <div className="mx-auto max-w-[1536px] px-5 sm:px-10 xl:px-16">
         <div className="mb-16 max-w-2xl">
           <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-accent">Contact Us</h2>
           <p className="mt-4 text-3xl font-semibold tracking-tight text-ink sm:text-4xl">

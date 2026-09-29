@@ -11,7 +11,7 @@ export function Header() {
 
   return (
     <header className="fixed left-0 right-0 top-0 z-50 border-b border-line/80 bg-cream/88 backdrop-blur-xl">
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8">
+      <div className="mx-auto flex h-20 max-w-[1536px] items-center justify-between px-5 sm:px-10 xl:px-16">
         <div className="flex items-center gap-4">
           <button className="md:hidden text-ink" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
             {isMenuOpen ? <X size={26} /> : <Menu size={26} />}

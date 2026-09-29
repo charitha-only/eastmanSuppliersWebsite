@@ -14,7 +14,7 @@ export function BrandMarquee() {
   
   return (
     <section className="border-t border-line bg-cream py-16 sm:py-24">
-      <div className="mx-auto max-w-7xl px-5 sm:px-8 text-center">
+      <div className="mx-auto max-w-[1536px] px-5 sm:px-10 xl:px-16 text-center">
         <p className="text-sm font-bold uppercase tracking-[0.2em] text-accent mb-12">Trusted Brands We Supply</p>
         
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7">

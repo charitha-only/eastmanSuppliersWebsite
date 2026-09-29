@@ -22,7 +22,7 @@ export function CartView() {
 
   if (lines.length === 0) {
     return (
-      <section className="mx-auto max-w-7xl px-5 pb-24 pt-28 sm:px-8">
+      <section className="mx-auto max-w-[1536px] px-5 pb-24 pt-28 sm:px-8">
         <div className="rounded-lg border border-line bg-white p-8 text-center shadow-soft sm:p-14">
           <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-accentSoft text-accent">
             <ShoppingBag size={28} />
@@ -40,7 +40,7 @@ export function CartView() {
   }
 
   return (
-    <section className="mx-auto max-w-7xl px-5 pb-24 pt-28 sm:px-8">
+    <section className="mx-auto max-w-[1536px] px-5 pb-24 pt-28 sm:px-8">
       <div className="mb-10 flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
         <div>
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-accent">Shopping cart</p>

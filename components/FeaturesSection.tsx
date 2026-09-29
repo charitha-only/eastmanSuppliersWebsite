@@ -26,7 +26,7 @@ export function FeaturesSection() {
 
   return (
     <section className="border-t border-line bg-cream py-20 sm:py-28">
-      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+      <div className="mx-auto max-w-[1536px] px-5 sm:px-10 xl:px-16">
         <div className="mb-16 text-center">
           <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-accent">Why Choose Us</h2>
           <p className="mt-4 text-3xl font-semibold tracking-tight text-ink sm:text-4xl">

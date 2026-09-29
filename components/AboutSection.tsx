@@ -12,7 +12,7 @@ const values = [
 export function AboutSection() {
   return (
     <section id="about" className="bg-white py-24 sm:py-32">
-      <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="mx-auto grid max-w-[1536px] items-center gap-12 px-5 sm:px-10 xl:px-16 lg:grid-cols-[1.05fr_0.95fr]">
         <motion.div initial={{ opacity: 0, x: -28 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-accent">About us</p>
           <h2 className="mt-4 text-balance text-4xl font-semibold leading-tight sm:text-5xl">Spare parts supply for serious sewing and cutting operations.</h2>

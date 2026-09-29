@@ -71,7 +71,7 @@ export function FeaturedPart() {
 
   return (
     <section id="featured" ref={sectionRef} className="bg-white py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-5 sm:px-8">
+      <div className="mx-auto max-w-[1536px] px-5 sm:px-10 xl:px-16">
         <div className="mb-12 flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-accent">Featured machines</p>
