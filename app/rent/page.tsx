@@ -2,8 +2,8 @@ import { Header } from '@/components/Header';
 import { RentShowcase } from '@/components/RentShowcase';
 
 export const metadata = {
-  title: 'Rent Machines | EASTMAN SUPPLIERS',
-  description: 'Garment factory machine rental supplier in Sri Lanka.'
+  title: 'Rent Garment Machinery',
+  description: 'Rent high-quality industrial sewing machines and cutting room equipment for your garment factory in Sri Lanka with flexible rental plans.',
 };
 
 export default function RentPage() {

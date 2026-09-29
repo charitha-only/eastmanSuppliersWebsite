@@ -2,8 +2,8 @@ import { Header } from '@/components/Header';
 import { ProductGrid } from '@/components/ProductGrid';
 
 export const metadata = {
-  title: 'Products | EASTMAN SUPPLIERS',
-  description: 'Browse sewing machine spare parts, knives, needles, and cutting equipment.'
+  title: 'All Products & Spare Parts',
+  description: 'Browse our complete catalog of industrial sewing machine spare parts, cutting machines, genuine needles, and garment manufacturing accessories in Sri Lanka.',
 };
 
 export default function ProductsPage() {
