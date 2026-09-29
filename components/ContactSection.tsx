@@ -23,8 +23,8 @@ export function ContactSection() {
               <div>
                 <h3 className="text-lg font-semibold text-ink">Our Location</h3>
                 <p className="mt-2 leading-relaxed text-muted">
-                  Eastman Suppliers,<br />
-                  Colombo, Sri Lanka
+                  397/8 Bogahawila Road,<br />
+                  Kottawa, Sri Lanka
                 </p>
               </div>
             </div>
@@ -47,17 +47,17 @@ export function ContactSection() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-ink">Email</h3>
-                <p className="mt-2 text-muted">
-                  <a href="mailto:info@eastmansuppliers.lk" className="transition hover:text-accent">info@eastmansuppliers.lk</a>
+                <p className="mt-2 text-muted flex flex-col gap-1">
+                  <a href="mailto:operation@eastmansuppliers.com" className="transition hover:text-accent">operation@eastmansuppliers.com</a>
+                  <a href="mailto:eastman@sltnet.lk" className="transition hover:text-accent">eastman@sltnet.lk</a>
                 </p>
               </div>
             </div>
           </div>
 
           <div className="h-[400px] min-h-[400px] w-full overflow-hidden rounded-2xl border border-line shadow-sm lg:h-auto">
-            {/* You can replace the src URL with your exact Google Maps embed URL */}
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126743.6316258671!2d79.77380295191564!3d6.921833527633276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo!5e0!3m2!1sen!2slk!4v1700000000000!5m2!1sen!2slk"
+              src="https://maps.google.com/maps?q=397/8%20bogahawila%20road%20kottawa&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
