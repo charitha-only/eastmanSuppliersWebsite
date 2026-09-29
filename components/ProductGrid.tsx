@@ -55,7 +55,6 @@ export function ProductGrid() {
                       <p className="text-xs font-bold uppercase tracking-[0.18em] text-muted">{product.category}</p>
                       <h3 className="mt-2 text-xl font-semibold">{product.name}</h3>
                     </div>
-                    <p className="text-lg font-bold">${product.price}</p>
                   </div>
                   <p className="mt-3 min-h-[56px] text-sm leading-7 text-muted">{product.description}</p>
                   <div className="mt-5 flex items-center justify-between gap-3">

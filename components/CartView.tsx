@@ -71,7 +71,6 @@ export function CartView() {
                     <h2 className="mt-2 text-2xl font-semibold">{line.product.name}</h2>
                     <p className="mt-2 max-w-2xl text-sm leading-6 text-muted">{line.product.description}</p>
                   </div>
-                  <p className="text-xl font-bold">{currency.format(line.product.price * line.quantity)}</p>
                 </div>
 
                 <div className="flex flex-wrap items-center justify-between gap-4">
@@ -102,22 +101,6 @@ export function CartView() {
 
         <aside className="h-fit rounded-lg border border-line bg-white p-5 shadow-soft sm:p-6">
           <h2 className="text-2xl font-semibold">Order summary</h2>
-          <div className="mt-6 grid gap-4 text-sm">
-            <div className="flex justify-between gap-4">
-              <span className="text-muted">Subtotal</span>
-              <span className="font-semibold">{currency.format(subtotal)}</span>
-            </div>
-            <div className="flex justify-between gap-4">
-              <span className="text-muted">Handling estimate</span>
-              <span className="font-semibold">{currency.format(serviceFee)}</span>
-            </div>
-            <div className="border-t border-line pt-4">
-              <div className="flex justify-between gap-4 text-lg">
-                <span className="font-semibold">Total</span>
-                <span className="font-bold">{currency.format(total)}</span>
-              </div>
-            </div>
-          </div>
 
           <button className="mt-6 inline-flex h-12 w-full items-center justify-center gap-2 rounded-full bg-accent px-6 text-sm font-bold text-white transition hover:bg-[#df3f45]">
             Request Checkout <ArrowRight size={17} />

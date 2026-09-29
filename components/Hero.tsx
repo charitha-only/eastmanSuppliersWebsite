@@ -58,7 +58,6 @@ export function Hero() {
           <div ref={priceRef} className="mt-8 flex flex-wrap items-center gap-4">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.18em] text-muted">{product.subtitle}</p>
-              <p className="mt-1 text-3xl font-semibold">${product.price.toLocaleString()}</p>
             </div>
             <button onClick={() => addItem(product)} className="inline-flex h-12 items-center gap-2 rounded-full bg-accent px-6 text-sm font-bold text-white shadow-soft transition hover:bg-[#df3f45]">
               Add to cart <ArrowRight size={18} />
