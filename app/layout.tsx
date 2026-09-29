@@ -47,8 +47,32 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Eastman Suppliers',
+    image: 'https://eastmansuppliers.lk/logo.jpg',
+    description: 'Sri Lanka\'s premier supplier of industrial sewing machine spare parts, cutting room equipment, and garment machinery accessories.',
+    url: 'https://eastmansuppliers.lk',
+    telephone: '+94771204302',
+    email: 'operation@eastmansuppliers.com',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '397/8 Bogahawila Road',
+      addressLocality: 'Kottawa',
+      addressRegion: 'Western Province',
+      addressCountry: 'LK'
+    }
+  };
+
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className={`${inter.variable} bg-cream font-sans text-ink antialiased`}>
         <Providers>
           {children}
