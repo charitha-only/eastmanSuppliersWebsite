@@ -40,7 +40,7 @@ export const products: Product[] = [
     image: '/products/ec6-cutter.png',
     category: 'Cutting Machines',
     description:
-      'The Eastman Brute (Model 627) is a high-powered heavy-duty straight knife cutting machine, designed for demanding production floors cutting thick lays, denim, technical fabrics, and multi-ply stacks with ease. Shares the same Eastman precision as the Blue Streak II but with significantly more cutting power.',
+      'The Eastman Brute (Model 627) is a high-powered heavy-duty straight knife cutting machine, designed for demanding production floors cutting thick lays, denim, technical fabrics, and multi-ply stacks with ease.',
     specs: [
       'Model: Brute (627)',
       'Blade Sizes: 5" – 13" available',
@@ -52,6 +52,50 @@ export const products: Product[] = [
       'Uni-Safe® safety terminal block',
       'Machined to 0.0005" tolerance',
       'Ideal for heavy-duty, multi-ply & technical fabric cutting'
+    ]
+  },
+  {
+    id: 'eastman-ec6n',
+    name: 'Eastman EC-6N End Cutter',
+    subtitle: 'Semi-Automatic Track-Mounted End Cutter',
+    price: 0,
+    image: '/products/cutting-machine.png',
+    category: 'End Cutters',
+    description:
+      'The Eastman EC-6N is a semi-automatic, track-mounted fabric end-cutting machine designed for precision and efficiency in garment cutting rooms. Features a stepping-motor driven cutting head for consistent, preset-length cuts across the full width of fabric lays.',
+    specs: [
+      'Model: EC-6N (Semi-Automatic)',
+      'Operation: Stepping-motor driven',
+      'Cutting Width: 48" – 144" (1.22m – 3.66m)',
+      'Track Length: 2.8m – 3.5m (optional sizes available)',
+      'Preset cutting length control',
+      'Emergency stop safety feature',
+      'Fabric holder & cord hanger included',
+      'Built-in layer counter',
+      'Manual track lifter',
+      'Reduces selvage waste & cutting errors'
+    ]
+  },
+  {
+    id: 'eastman-ec9n',
+    name: 'Eastman EC-9N End Cutter',
+    subtitle: 'Fully-Automatic Track-Mounted End Cutter',
+    price: 0,
+    image: '/products/ec6-cutter.png',
+    category: 'End Cutters',
+    description:
+      'The Eastman EC-9N is a fully-automatic, track-mounted end-cutting machine – the most advanced model in the EC series. Features automatic track lifting, stepping-motor driven precision cutting, and preset length control for maximum throughput with minimal operator effort.',
+    specs: [
+      'Model: EC-9N (Fully-Automatic)',
+      'Operation: Fully-Automatic stepping-motor driven',
+      'Cutting Width: 48" – 144" (1.22m – 3.66m)',
+      'Track Length: 2.8m – 3.5m (optional sizes available)',
+      'Preset cutting length control',
+      'Automatic track lifter (upgrade from EC-6N)',
+      'Emergency stop safety feature',
+      'Fabric holder & cord hanger included',
+      'Built-in layer counter',
+      'Maximum productivity with minimal operator effort'
     ]
   },
   {
@@ -90,5 +134,5 @@ export const products: Product[] = [
 ];
 
 export const heroProducts = products.filter((product) =>
-  ['eastman-629-blue-streak', 'eastman-627-brute', 'needle-pack', 'band-knife'].includes(product.id)
+  ['eastman-629-blue-streak', 'eastman-627-brute', 'eastman-ec6n', 'eastman-ec9n'].includes(product.id)
 );
