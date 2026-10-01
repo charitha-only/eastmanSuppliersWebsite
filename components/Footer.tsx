@@ -22,6 +22,7 @@ export function Footer() {
             <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-ink">Quick Links</h3>
             <nav className="flex flex-col gap-3 text-sm text-muted">
               <a href="/products" className="transition hover:text-accent">All Products</a>
+              <a href="/sell" className="transition hover:text-accent">Buy a Machine</a>
               <a href="/rent" className="transition hover:text-accent">Rent Equipment</a>
               <a href="/#featured" className="transition hover:text-accent">Featured Parts</a>
               <a href="/#about" className="transition hover:text-accent">About Us</a>

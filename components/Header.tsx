@@ -26,6 +26,7 @@ export function Header() {
           <a className="transition hover:text-ink" href="/#featured">Featured</a>
           <a className="transition hover:text-ink" href="/products">Products</a>
           <a className="transition hover:text-ink" href="/rent">Rent</a>
+          <a className="transition hover:text-ink" href="/sell">Sell</a>
           <a className="transition hover:text-ink" href="/#about">About</a>
         </nav>
         
@@ -44,6 +45,7 @@ export function Header() {
           <a className="transition hover:text-ink block" href="/#featured" onClick={() => setIsMenuOpen(false)}>Featured</a>
           <a className="transition hover:text-ink block" href="/products" onClick={() => setIsMenuOpen(false)}>Products</a>
           <a className="transition hover:text-ink block" href="/rent" onClick={() => setIsMenuOpen(false)}>Rent</a>
+          <a className="transition hover:text-ink block" href="/sell" onClick={() => setIsMenuOpen(false)}>Sell</a>
           <a className="transition hover:text-ink block" href="/#about" onClick={() => setIsMenuOpen(false)}>About</a>
         </nav>
       )}
