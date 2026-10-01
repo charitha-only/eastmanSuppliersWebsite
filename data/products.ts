@@ -11,32 +11,54 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    id: 'ec6-cutter',
-    name: 'EC6 Precision Cutter',
-    subtitle: 'Straight knife cutting system',
-    price: 420,
+    id: 'eastman-629-blue-streak',
+    name: 'Eastman Blue Streak II',
+    subtitle: 'Model 629 – Straight Knife Cutting Machine',
+    price: 0,
+    image: '/products/cutting-machine.png',
+    category: 'Cutting Machines',
+    description:
+      'The Eastman Blue Streak II (Model 629) is an industry-standard straight knife cutting machine built for versatile, general-purpose fabric cutting. Features a high power-to-weight ratio, low centre of gravity, and precision-machined components for smooth daily production output.',
+    specs: [
+      'Model: Blue Streak II (629)',
+      'Blade Sizes: 5" – 13" available',
+      'Motor: 110V/220V (1-phase) | 220V/380V (3-phase)',
+      'Power: 0.65 hp (1-phase)',
+      'Stroke Lengths: 1.125" – 1.75"',
+      '"One Shot" single-reservoir oiling system',
+      'Built-in blade sharpening (abrasive belt)',
+      'Uni-Safe® safety terminal block',
+      'Machined to 0.0005" tolerance',
+      'Works on denim, silk, cotton, synthetics & technical textiles'
+    ]
+  },
+  {
+    id: 'eastman-627-brute',
+    name: 'Eastman Brute',
+    subtitle: 'Model 627 – Heavy-Duty Straight Knife Cutter',
+    price: 0,
     image: '/products/ec6-cutter.png',
     category: 'Cutting Machines',
     description:
-      'A stable industrial cutting unit designed for fabric rooms that demand clean lines, smooth travel, and reliable daily output.',
-    specs: ['Balanced motor head', 'Low-vibration housing', 'Service-ready controls']
-  },
-  {
-    id: 'cutting-machine',
-    name: 'Eastman Rail Cutting Table',
-    subtitle: 'Motorized rail cutter',
-    price: 1250,
-    image: '/products/cutting-machine.png',
-    category: 'Machine Systems',
-    description:
-      'A production-grade rail cutting setup with guided movement, responsive control box, and a wide table profile for layered fabric work.',
-    specs: ['Guided rail assembly', 'Responsive panel', 'Industrial duty frame']
+      'The Eastman Brute (Model 627) is a high-powered heavy-duty straight knife cutting machine, designed for demanding production floors cutting thick lays, denim, technical fabrics, and multi-ply stacks with ease. Shares the same Eastman precision as the Blue Streak II but with significantly more cutting power.',
+    specs: [
+      'Model: Brute (627)',
+      'Blade Sizes: 5" – 13" available',
+      'Motor: 110V/220V (1-phase) | 220V/380V (3-phase)',
+      'Power: Up to 2.2 hp (high-power)',
+      'Stroke Lengths: 1.125" – 1.75"',
+      '"One Shot" single-reservoir oiling system',
+      'Built-in blade sharpening (abrasive belt)',
+      'Uni-Safe® safety terminal block',
+      'Machined to 0.0005" tolerance',
+      'Ideal for heavy-duty, multi-ply & technical fabric cutting'
+    ]
   },
   {
     id: 'needle-pack',
     name: 'Groz-Beckert Needle Set',
     subtitle: 'Premium sewing needles',
-    price: 38,
+    price: 0,
     image: '/products/needle.png',
     category: 'Needles',
     description:
@@ -47,7 +69,7 @@ export const products: Product[] = [
     id: 'straight-knives',
     name: 'Golden Eagle Straight Knives',
     subtitle: 'Alloy steel knife range',
-    price: 74,
+    price: 0,
     image: '/products/straight-knives.jpg',
     category: 'Knives',
     description:
@@ -58,7 +80,7 @@ export const products: Product[] = [
     id: 'band-knife',
     name: 'Band Knife Blade',
     subtitle: 'Fine edge cutting blade',
-    price: 52,
+    price: 0,
     image: '/products/band-knife.png',
     category: 'Blades',
     description:
@@ -68,5 +90,5 @@ export const products: Product[] = [
 ];
 
 export const heroProducts = products.filter((product) =>
-  ['ec6-cutter', 'cutting-machine', 'needle-pack', 'band-knife'].includes(product.id)
+  ['eastman-629-blue-streak', 'eastman-627-brute', 'needle-pack', 'band-knife'].includes(product.id)
 );
